@@ -1,2 +1,0 @@
-# HANK.C
-cmscmcmsmcskmczmkmm
