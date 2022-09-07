@@ -7,11 +7,11 @@ struct Book
 };
 int main()
 {
-	struct Book a={"Ò»±¾ºÃÊé",10000000};
+	struct Book a={"é’¢é“æ˜¯æ€Žæ ·ç»ƒæˆçš„",10000000};
 	struct Book* b = &a;
-	printf("ÊéÃû½Ð%s\n", b->name);
-	printf("¼Û¸ñÊÇ%dÔª\n", b->price);
+	printf("ä¹¦åå«%s\n", b->name);
+	printf("ä»·æ ¼æ˜¯%då…ƒ\n", b->price);
 	a.price = 5201314;
-	printf("ÐÞ¸ÄºóµÄ¼Û¸ñÊÇ%dÔª\n", b->price);
+	printf("ä¿®æ”¹åŽçš„ä»·æ ¼æ˜¯%då…ƒ\n", b->price);
 	return 0;
 }
